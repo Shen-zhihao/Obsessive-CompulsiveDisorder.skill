@@ -1,0 +1,33 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE (root level)
+.idea/
+.vscode/
+*.swp
+*.swo
+.git
+.claude
+
+# Local logs & temp
+.local-logs/
+.data/
+runtime/
+
+# Playwright MCP
+.playwright-mcp/
+
+# OpenCode
+.opencode/
+
+# Env files
+.env
+.env.*
+
+# Lock files — project uses pnpm, ignore npm/yarn lock files
+**/package-lock.json
+**/yarn.lock
+
+# Local dev config
+**/logs/
